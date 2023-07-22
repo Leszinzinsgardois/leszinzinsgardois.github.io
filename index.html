@@ -95,19 +95,32 @@
             height: 20px;
         }
 
-        ul ul {
-            display: none;
-            text-decoration: none;
-            color: #333333;
-            font-size: 16px;
-            font-weight: bold;
+        /* Styles pour le deuxième menu */
+        header nav:last-child {
+          margin-top: 20px;
         }
 
-        /* Pour afficher le sous-menu au survol du lien parent */
-        li:hover > ul {
-            display: block;
-  /* Vous pouvez également ajouter des styles supplémentaires pour le positionnement et l'apparence du sous-menu ici */
+        header nav:last-child ul {
+          display: flex;
+          justify-content: center;
+          list-style: none;
         }
+
+        header nav:last-child li {
+          margin-right: 10px;
+        }
+
+        header nav:last-child a {
+        text-decoration: none;
+        color: #333333;
+        font-size: 16px;
+        font-weight: bold;
+        }
+
+        header nav:last-child a:hover {
+          color: #c7932a;
+        }
+
 
       </style>
     </head>
