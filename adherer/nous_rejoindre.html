@@ -106,6 +106,19 @@
   /* Vous pouvez également ajouter des styles supplémentaires pour le positionnement et l'apparence du sous-menu ici */
         }
 
+        /* Styles pour le sous-menu */
+        .sous-menu {
+            display: none;
+            position: absolute;
+            background-color: #f0f0f0;
+            padding: 10px;
+          }
+          
+          /* Afficher le sous-menu au survol de l'élément parent */
+          .partenaires:hover .sous-menu {
+            display: block;
+          }
+
       </style>
     </head>
 
@@ -123,14 +136,12 @@
                 </li>
                 <li><a href="#">Actualités</a></li>
                 <li><a href="#">Nos Evenements</a></li>
-                <li>
+                <li class="partenaires">
                   <a href="#">Nos partenaires</a>
-                  <ul>
-                    <li class="petitcolon">
-                      <img src="images/petit colon logo.png" alt="Petit Colon Logo">
-                      <a href="#">Petit Colon</a>
-                    </li>
-                  </ul>
+                  <span class="sous-menu">
+                    <img src="images/petit colon logo.png" alt="Petit Colon Logo">
+                    <a href="#">Petit Colon</a>
+                  </span>
                 </li>
                 <li><a href="#">Nous découvrir</a></li>
                 <li class="certif">
@@ -141,8 +152,7 @@
                 </li>
               </ul>
             </nav>
-          </header>
-          
+          </header>      
         
         <div class="text h1">
             <p>Rejoindre Notre Equipe</p>
