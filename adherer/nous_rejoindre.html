@@ -91,6 +91,21 @@
             height: 15px;
         }
 
+        .petitcolon img {
+            width: 20px;
+            height: 20px;
+        }
+
+        ul ul {
+            display: none;
+        }
+
+        /* Pour afficher le sous-menu au survol du lien parent */
+        li:hover > ul {
+            display: block;
+  /* Vous pouvez également ajouter des styles supplémentaires pour le positionnement et l'apparence du sous-menu ici */
+        }
+
       </style>
     </head>
 
@@ -98,14 +113,17 @@
         
         <header>
             <div class="logo">
-              <img src="images/brand/Logo YouTube.jpg" alt="Logo">
+              <img src="images/Logo YouTube.jpg" alt="Logo">
             </div>
             <nav>
               <ul>
-                <li><a href="https://leszinzinsgardois.github.io">Accueil</a></li>
+                <li class="petitcolon"><img src="/images/petit colon logo.png" alt="Logo Petit Colon"><a href="https://leszinzinsgardois.github.io">Accueil</a></li>
                 <li><a href="#">Actualités</a></li>
                 <li><a href="#">Nos Evenements</a></li>
                 <li><a href="#">Nos partenaires</a></li>
+                    <ul>
+                        <li class="petitcolon"><img src="images/petit colon logo.png" alt="Petit Colon Logo"><a href="#">Petit Colon</a></li>
+                    </ul>
                 <li><a href="#">Nous découvrir</a></li>
                 <li class="certif"><a href="https://leszinzinsgardois.github.io/adherer.html"><img src="images/certified.png" alt="Verified">Adhérer/S'inscrire</a></li>
               </ul>
