@@ -1,0 +1,112 @@
+          body {
+            font-family: 'Roboto', sans-serif;
+            text-align: center;
+            font-size: 18px;
+          }
+        
+          h1 {
+            text-align: center;
+            font-family: 'Oswald', sans-serif;
+            font-size: 48px;
+            color:aquamarine;
+          }
+        
+          footer {
+            background-color: #e2cfa8;
+            padding: 30px;
+            text-align: center;
+            font-size: 16px;
+          }
+        
+          footer p {
+            margin: 5px 0;
+          }
+          
+          .name {
+            text-align: center;
+            font-family: 'Oswald', sans-serif;
+            font-size: 20px;
+          }
+            
+          .contact {
+            text-align: center;    
+          }
+
+          .newsletter {
+            text-align: center;
+          }
+
+
+          header {
+            background-color: #f0f0f0;
+            padding: 20px;
+          }
+
+          .logo {
+            display: inline-block;
+            margin-right: 20px;
+          }
+
+          .logo img {
+            width: 40px;
+            height: 40px;
+          }
+
+          nav ul {
+            list-style: none;
+            margin: 0;
+            padding: 0;
+            display: inline-block;
+          }
+
+          nav li {
+            display: inline-block;
+            margin-right: 10px;
+          }
+
+          nav a {
+            text-decoration: none;
+            color: #333333;
+            font-size: 16px;
+            font-weight: bold;
+          }
+          
+          nav a:hover {
+            color: #c7932a;
+          }
+
+          .certif img {
+            width: 15px;
+            height: 15px;  
+          }
+          .petitcolon img {
+            width: 30px;
+            height: 30px;
+        }
+
+        /* Styles pour le deuxième menu */
+        header nav:last-child {
+          margin-top: 20px;
+        }
+
+        header nav:last-child ul {
+          display: flex;
+          justify-content: center;
+          list-style: none;
+        }
+
+        header nav:last-child li {
+          margin-right: 10px;
+        }
+
+        header nav:last-child a {
+        text-decoration: none;
+        color: #333333;
+        font-size: 16px;
+        font-weight: bold;
+        }
+
+        header nav:last-child a:hover {
+          color: #c7932a;
+        }
+

@@ -8,121 +8,20 @@
       <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto">
       <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Oswald">
       <link rel="icon" href="images/brand/Logo YouTube.jpg" type="image/png">
+      <link rel="stylesheet" href="style.css">
       <style>
-          body {
-            font-family: 'Roboto', sans-serif;
-            text-align: center;
-            font-size: 18px;
-          }
-        
-          h1 {
-            text-align: center;
-            font-family: 'Oswald', sans-serif;
-            font-size: 48px;
-            color:aquamarine;
-          }
-        
-          footer {
-            background-color: #e2cfa8;
-            padding: 30px;
-            text-align: center;
-            font-size: 16px;
-          }
-        
-          footer p {
-            margin: 5px 0;
-          }
-          
-          .name {
-            text-align: center;
-            font-family: 'Oswald', sans-serif;
-            font-size: 20px;
-          }
-            
-          .contact {
-            text-align: center;    
-          }
-
-          .newsletter {
-            text-align: center;
-          }
-
-
-          header {
-            background-color: #f0f0f0;
+        .popup {
+            position: fixed;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+            background-color: white;
             padding: 20px;
-          }
-
-          .logo {
-            display: inline-block;
-            margin-right: 20px;
-          }
-
-          .logo img {
-            width: 40px;
-            height: 40px;
-          }
-
-          nav ul {
-            list-style: none;
-            margin: 0;
-            padding: 0;
-            display: inline-block;
-          }
-
-          nav li {
-            display: inline-block;
-            margin-right: 10px;
-          }
-
-          nav a {
-            text-decoration: none;
-            color: #333333;
-            font-size: 16px;
-            font-weight: bold;
-          }
-          
-          nav a:hover {
-            color: #c7932a;
-          }
-
-          .certif img {
-            width: 15px;
-            height: 15px;  
-          }
-          .petitcolon img {
-            width: 30px;
-            height: 30px;
+            border: 1px solid black;
+            display: none;
+            z-index: 1000;
         }
-
-        /* Styles pour le deuxième menu */
-        header nav:last-child {
-          margin-top: 20px;
-        }
-
-        header nav:last-child ul {
-          display: flex;
-          justify-content: center;
-          list-style: none;
-        }
-
-        header nav:last-child li {
-          margin-right: 10px;
-        }
-
-        header nav:last-child a {
-        text-decoration: none;
-        color: #333333;
-        font-size: 16px;
-        font-weight: bold;
-        }
-
-        header nav:last-child a:hover {
-          color: #c7932a;
-        }
-
-
-      </style>
+    </style>
     </head>
   <body>
   <header>
@@ -149,6 +48,19 @@
       </ul>
     </nav>
   </header>
+  <div class="popup">
+    <h1>test de fonctionnalité!</h1>
+    <button onclick="closePopup()">Close</button>
+</div>
+<script>
+    function openPopup() {
+        document.querySelector('.popup').style.display = 'block';
+    }
+    function closePopup() {
+        document.querySelector('.popup').style.display = 'none';
+    }
+    openPopup();
+</script>
 
 
   <div class="text h1">
