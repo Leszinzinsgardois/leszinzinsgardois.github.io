@@ -10,8 +10,8 @@ body {
     font-size: 18px;
 }
 
-.propriété {
-    font-family: 'Arial', sans-serif;
+footer {
+    font-family: 'Roboto', sans-serif;
     text-align: center;
-    font-size: 18px;
+    font-size: 14px;
 }
