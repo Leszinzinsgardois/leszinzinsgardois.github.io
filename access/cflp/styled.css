@@ -3,3 +3,15 @@ body {
     text-align: center;
     font-size: 18px;
   }
+
+.ligne_maintenance {
+    font-family: 'Arial', sans-serif;
+    text-align: center;
+    font-size: 18px;
+}
+
+.propriété {
+    font-family: 'Arial', sans-serif;
+    text-align: center;
+    font-size: 18px;
+}
