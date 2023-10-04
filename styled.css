@@ -1,0 +1,102 @@
+body {
+    font-family: 'Arial', sans-serif;
+    text-align: center;
+    font-size: 18px;
+  }
+
+.ligne_maintenance {
+    font-family: 'Arial', sans-serif;
+    text-align: center;
+    font-size: 18px;
+}
+
+footer {
+    font-family: 'Roboto', sans-serif;
+    text-align: center;
+    font-size: 14px;
+}
+
+  
+  .rubrique-actualites {
+    background-color: #f0f0f0; /* Couleur de fond légèrement grise */
+    padding: 20px;
+    border-radius: 10px;
+    margin: 20px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Ombre légère */
+  }
+  
+  .rubrique-actualites h2 {
+    color: #333; /* Couleur du titre */
+  }
+  
+  .rubrique-actualites ul {
+    list-style-type: none;
+    padding: 0;
+  }
+  
+  .rubrique-actualites li {
+    margin-bottom: 10px;
+  }
+  
+  .rubrique-actualites li strong {
+    color: #ff4800; /* Couleur du titre de l'actualité */
+  }
+  /* Ajoutez ces styles pour personnaliser la description et l'image */
+.actualite-description {
+    color: #666; /* Couleur du texte de la description */
+    text-decoration: none;
+    
+  }
+  
+  .actualite-image {
+    display: block;
+    max-width: 100%;
+    height: auto;
+    border: 1px solid #ccc; /* Bordure autour de l'image */
+    border-radius: 5px; /* Coins arrondis pour l'image */
+    margin-top: 10px; /* Espacement entre le texte et l'image */
+  }
+
+  header {
+    background-color: #f0ff9d;
+    padding: 20px;
+  }
+
+  nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: inline-block;
+  }
+
+  nav li {
+    display: inline-block;
+    margin-right: 10px;
+  }
+
+  nav a {
+    text-decoration: none;
+    color: #333333;
+    font-size: 16px;
+    font-weight: bold;
+  }
+  
+  nav a:hover {
+    color: blue;
+  }
+
+  .logo {
+    display: inline-block;
+    margin-right: 20px;
+  }
+
+  .logo img {
+    width: 60px;
+    height: 60px;
+  }
+
+  .banniere {
+    background-color: orangered; /* Couleur de fond de la bannière */
+    color: white; /* Couleur du texte */
+    padding: 1px; /* Espace intérieur autour du texte */
+  }
