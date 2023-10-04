@@ -1,0 +1,28 @@
+body {
+    font-family: 'Arial', sans-serif;
+    text-align: center;
+    font-size: 18px;
+}
+
+.ligne_maintenance {
+    font-family: 'Arial', sans-serif;
+    text-align: center;
+    font-size: 18px;
+}
+
+footer {
+    font-family: 'Roboto';
+    text-align: center;
+    font-size: 14px;
+}
+
+h1 {
+    font-family: 'Arial', sans-serif;
+    text-align: center;
+    color: mediumorchid;
+}
+/* La couleur du h1 est définie via le code rgb suivant: 186,85,211 */
+
+span.precisions {
+    color: red;
+}

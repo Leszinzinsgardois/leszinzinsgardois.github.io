@@ -4,6 +4,10 @@ body {
     font-size: 18px;
   }
 
+h1 {
+  color:blanchedalmond
+}
+
 .ligne_maintenance {
     font-family: 'Arial', sans-serif;
     text-align: center;
@@ -56,9 +60,8 @@ footer {
     border-radius: 5px; /* Coins arrondis pour l'image */
     margin-top: 10px; /* Espacement entre le texte et l'image */
   }
-
   header {
-    background-color: #f0ff9d;
+    background-color: #f0f0f0;
     padding: 20px;
   }
 
@@ -82,21 +85,5 @@ footer {
   }
   
   nav a:hover {
-    color: blue;
-  }
-
-  .logo {
-    display: inline-block;
-    margin-right: 20px;
-  }
-
-  .logo img {
-    width: 60px;
-    height: 60px;
-  }
-
-  .banniere {
-    background-color: orangered; /* Couleur de fond de la bannière */
-    color: white; /* Couleur du texte */
-    padding: 1px; /* Espace intérieur autour du texte */
+    color: #c7932a;
   }
