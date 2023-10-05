@@ -8,7 +8,7 @@
     <meta name="viewport">
     <meta index>
     <meta author="Prev'Art Ciné Film - Régie Numérique">
-    <link rel="javascript" href="base.js"
+    <link rel="javascript" href="base.js">
 </head>
 
 <body>
@@ -30,6 +30,21 @@
       <p>Une Maintenance est actuellement en cours sur le site web. Des bugs peuvent survenir!</p>
     </div>  
    <noscript>Tu dois utiliser JAVASCRIPT avant de te connecter à ce site.</noscript>
+   <!--UTILISATION JAVASCRIPT-->
+   <button onclick="openPopup()">Notification!</button>
+
+   <div id="popup" class="popup">
+       <div class="popup-content">
+           <span class="close" onclick="closePopup()">&times;</span>
+           <p>Des maintenances occasionnelles seront produites!</p>
+           <p>Vous pouvez suivre les notifs sur la page <a href="#"> dédiée à cela</a></p>
+       </div>
+   </div>
+   
+   <script src="script.js"></script>
+   <!--FIN DE BALISE JAVASCRIPT-->
+    
+   
     <h1>Bienvenue sur le site de Prev'Art Film Club!</h1>
     <div class="text ligne_maintenance">
         <p>Retrouvez dans le menu ci-dessus TOUS les liens accessibles!</p>
