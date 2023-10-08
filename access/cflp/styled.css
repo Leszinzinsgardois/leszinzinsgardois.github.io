@@ -44,17 +44,17 @@ footer {
   /* Ajoutez ces styles pour personnaliser la description et l'image */
 .actualite-description {
     color: #666; /* Couleur du texte de la description */
-    text-decoration: none;
-    
+    text-decoration: none;    
   }
   
   .actualite-image {
     display: block;
-    max-width: 100%;
+    max-width: 20%;
     height: auto;
-    border: 1px solid #ccc; /* Bordure autour de l'image */
+    border: 2px solid #ccc; /* Bordure autour de l'image */
     border-radius: 5px; /* Coins arrondis pour l'image */
     margin-top: 10px; /* Espacement entre le texte et l'image */
+    margin:auto;
   }
 
   header {
