@@ -1,4 +1,4 @@
-    body {
+body {
     font-family: Arial, sans-serif;
     margin: 0;
     padding: 20px;
@@ -6,17 +6,16 @@
   }
   
   .profile {
-    display: flex;
-    align-items: center;
+    margin-bottom: 20px; /* Ajout de marge en bas pour séparer les profils */
     background-color: #fff;
     border-radius: 10px;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
     padding: 20px;
+    box-sizing: border-box;
   }
   
   .profile-info {
-    flex: 1;
-    padding-right: 20px;
+    margin-bottom: 10px; /* Ajout de marge en bas pour séparer les éléments dans le profil */
   }
   
   .profile-name {
@@ -40,10 +39,6 @@
     color: red;
   }
   
-  .profile-roles {
-    margin-top: 20px;
-  }
-  
   .role {
     display: inline-block;
     margin-right: 10px;
@@ -53,12 +48,12 @@
     border-radius: 5px;
   }
   
-  .profile-date {
-    margin-top: 20px;
+  .profile-roles, .profile-date {
+    margin-top: 10px; /* Ajout de marge en haut pour séparer les éléments dans le profil */
   }
   
   .membership-status {
-    margin-top: 20px;
+    margin-top: 10px;
     padding: 10px;
     background-color: #27ae60; /* Couleur de fond pour l'adhésion finalisée */
     color: #fff;
@@ -81,4 +76,24 @@
   }
   
   /* Ajoutez plus de styles selon vos besoins pour rendre l'interface esthétique */
+  .explanation-icon {
+    margin-left: 10px;
+    font-size: 20px;
+    color: rgb(76, 0, 255); /* Couleur de l'icône d'explication */
+  }
   
+  .explanation-text {
+    margin-left: 5px;
+    font-size: 14px;
+    color: rgb(255, 255, 255); /* Couleur du texte d'explication */
+  }
+  .membership-status.pending {
+    background-color: rgb(255, 102, 0); /* Couleur de fond pour le statut d'adhésion en attente */
+    color: black;
+  }
+  
+    .profiles-container {
+        display: flex;
+        flex-wrap: wrap;
+      }
+
