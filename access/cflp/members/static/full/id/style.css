@@ -1,0 +1,84 @@
+    body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 20px;
+    background-color: #f0f0f0;
+  }
+  
+  .profile {
+    display: flex;
+    align-items: center;
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+  }
+  
+  .profile-info {
+    flex: 1;
+    padding-right: 20px;
+  }
+  
+  .profile-name {
+    font-size: 24px;
+    font-weight: bold;
+    color: #3498db; /* Couleur du nom/surnom */
+  }
+  
+  .profile-photo {
+    margin-top: 10px;
+    width: 100px;
+    height: 100px;
+    background-color: #f9f9f9;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 50%;
+  }
+  
+  .no-photo {
+    color: red;
+  }
+  
+  .profile-roles {
+    margin-top: 20px;
+  }
+  
+  .role {
+    display: inline-block;
+    margin-right: 10px;
+    padding: 5px 10px;
+    background-color: #3498db; /* Couleur des rôles */
+    color: #fff;
+    border-radius: 5px;
+  }
+  
+  .profile-date {
+    margin-top: 20px;
+  }
+  
+  .membership-status {
+    margin-top: 20px;
+    padding: 10px;
+    background-color: #27ae60; /* Couleur de fond pour l'adhésion finalisée */
+    color: #fff;
+    border-radius: 5px;
+  }
+  
+  .profile-folders {
+    margin-top: 20px;
+  }
+  
+  .folder-button {
+    padding: 10px 20px;
+    margin-right: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+  }
+  
+  .folder-button:disabled {
+    color: red;
+  }
+  
+  /* Ajoutez plus de styles selon vos besoins pour rendre l'interface esthétique */
+  
