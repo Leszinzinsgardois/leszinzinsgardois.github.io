@@ -1,10 +1,16 @@
 function loginUser() {
-    const username = document.getElementById('username').value;
+    // Récupération des IDs à partir de commonScript
+    const commonScript = document.getElementById('commonScript');
+    const usernameInput = commonScript ? commonScript.querySelector('#username') : null;
+    const passwordInput = commonScript ? commonScript.querySelector('#password') : null;
   
-    if (validateUser(username)) {
+    const username = usernameInput ? usernameInput.value : '';
+    const password = passwordInput ? passwordInput.value : '';
+  
+    if (username && password && validateUser(username)) {
       window.location.href = `admin.html?username=${username}`;
     } else {
-      alert('Nom d\'utilisateur incorrect. Veuillez réessayer.');
+      alert('Identifiants incorrects. Veuillez réessayer.');
     }
   }
   

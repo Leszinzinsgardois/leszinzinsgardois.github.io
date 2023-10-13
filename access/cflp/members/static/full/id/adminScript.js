@@ -1,4 +1,8 @@
-function displayWelcomeMessage() {
+function redirectToLogin() {
+    window.location.href = 'login.html';
+  }
+  
+  function displayWelcomeMessage() {
     const urlParams = new URLSearchParams(window.location.search);
     const username = urlParams.get('username');
   
@@ -10,5 +14,10 @@ function displayWelcomeMessage() {
     }
   }
   
-  displayWelcomeMessage();
+  // Récupération des IDs à partir de commonScript
+  const commonScript = document.getElementById('commonScript');
+  const usernameInput = document.getElementById('username');
+  const passwordInput = document.getElementById('password');
   
+  // Vérification si l'utilisateur est connecté avant d'afficher la page
+  displayWelcomeMessage();
