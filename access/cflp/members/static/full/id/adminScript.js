@@ -1,4 +1,9 @@
-function redirectToLogin() {
+const users = [
+    { username: 'admin', password: 'admin' },
+    { username: 'utilisateur2', password: 'password2' }
+  ];
+  
+  function redirectToLogin() {
     window.location.href = 'login.html';
   }
   
@@ -14,10 +19,10 @@ function redirectToLogin() {
     }
   }
   
-  // Récupération des IDs à partir de commonScript
-  const commonScript = document.getElementById('commonScript');
-  const usernameInput = document.getElementById('username');
-  const passwordInput = document.getElementById('password');
+  function validateUser(username) {
+    return users.some(user => user.username === username);
+  }
   
   // Vérification si l'utilisateur est connecté avant d'afficher la page
   displayWelcomeMessage();
+  
