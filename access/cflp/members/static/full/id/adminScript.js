@@ -1,6 +1,6 @@
 const users = [
     { username: 'admin', password: 'admin' },
-    { username: 'utilisateur2', password: 'password2' }
+    { username: '07120884657', password: 'cflpprevert' }
   ];
   
   function redirectToLogin() {
