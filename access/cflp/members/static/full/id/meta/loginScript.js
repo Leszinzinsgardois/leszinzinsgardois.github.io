@@ -1,6 +1,6 @@
 const credentials = {
-  'admin': 'admin',
-  '08438584213445': 'test'
+  'admin': 'admin', // Compte Admin
+  '35848267': '...' // Compte Antony
   // Données utilisateurs ici
 };
 
@@ -9,7 +9,7 @@ function login() {
   const motDePasse = document.getElementById('motDePasse').value;
 
   if (credentials[identifiant] && credentials[identifiant] === motDePasse) {
-      window.location.href = `${identifiant}.html`;
+      window.location.href = `user/${identifiant}.html`;
   } else {
       alert('Identifiant ou mot de passe incorrect, veuillez réessayer');
   }
