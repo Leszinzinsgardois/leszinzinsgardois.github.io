@@ -6,13 +6,6 @@
 ## Dépendances web utilisées:
 Nous utilisons le **HTML** et le **CSS**. Les extensions & fonctionnalités **Javascript** et **PHP** sont en cours de développement.
 
-## Services effectués
-
-Les zinzins Gardois hébergent un site:
-- [Prev'Art Film Club.](https://leszinzinsgardois.github.io/access/cflp/accueil.html)
-Ce site est géré indépendamment de l'équipe de développement **Les Zinzins Gardois**
-
-
 ## Mises à Jour
 
 Le site est mis fréquemment à jour. 
