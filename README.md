@@ -1,5 +1,8 @@
 # Site Web les zinzins gardois
-*Site hébergé par Github.io*
+
+> [!IMPORTANT]
+> La version du site web est obsolète. 
+> Une correction est en cours de conception et sera prochainement déployée.
 
 *Les indicateurs viendront prochainement*
 
@@ -17,6 +20,14 @@ Une indication reste cependant donnée dans le **footer** du site web concerné.
 ## Visibilité des auteurs
 
 Conformément à la **politique de confidentialité** de l'éditeur "Les ZInzins Gardois", sur chaque post effectué sur un sous domaine du site, un nom d'auteur sera visible. Et ce, quel que soit l'auteur. 
+
+**Automatiquement**, l'auteur par défaut est le *propriétaire* du profil
+
+    En cas d'intégration d'une page "Utilisateur" au site, il pourra être ajouté une fonctionnalité de Commentaires.
+    
+    L'id de l'Utilisateur sera clairement affichée dans le cadre d'une transparence optimale!
+    Un format dit customisable sera aussi mis en place.
+
 
 **Automatiquement**, l'auteur par défaut est le *propriétaire* du profil
 
