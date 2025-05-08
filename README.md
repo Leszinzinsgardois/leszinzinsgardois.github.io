@@ -1,37 +1,6 @@
-# Site Web les zinzins gardois
+# SITE EN COURS DE CONCEPTION
+> [!CAUTION]
+> En raison de la construction du site, il sera totalement indisponible jusqu'à publication.
 
-> [!IMPORTANT]
-> La version du site web est obsolète. 
-> Une correction est en cours de conception et sera prochainement déployée.
-
-*Les indicateurs viendront prochainement*
-
-## Dépendances web utilisées:
-Nous utilisons le **HTML** et le **CSS**. Les extensions & fonctionnalités **Javascript** et **PHP** sont en cours de développement.
-
-## Mises à Jour
-
-Le site est mis fréquemment à jour. 
-<br> Que la maintenance soit annoncée ou non, le site est en perpétuelle évolution.
-
-Une indication reste cependant donnée dans le **footer** du site web concerné.
-*un numéro de version est obligatoirement précisé*
-
-## Visibilité des auteurs
-
-Conformément à la **politique de confidentialité** de l'éditeur "Les ZInzins Gardois", sur chaque post effectué sur un sous domaine du site, un nom d'auteur sera visible. Et ce, quel que soit l'auteur. 
-
-**Automatiquement**, l'auteur par défaut est le *propriétaire* du profil
-
-    En cas d'intégration d'une page "Utilisateur" au site, il pourra être ajouté une fonctionnalité de Commentaires.
-    
-    L'id de l'Utilisateur sera clairement affichée dans le cadre d'une transparence optimale!
-    Un format dit customisable sera aussi mis en place.
-
-
-**Automatiquement**, l'auteur par défaut est le *propriétaire* du profil
-
-    En cas d'intégration d'une page "Utilisateur" au site, il pourra être ajouté une fonctionnalité de Commentaires.
-    
-    L'id de l'Utilisateur sera clairement affichée dans le cadre d'une transparence optimale!
-    Un format dit customisable sera aussi mis en place.
+# 
+Type de site: <i>admin</i>
